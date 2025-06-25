@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- USBストレージ選択 -->
+    <Button
+        android:id="@+id/btn_select_usb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="USBストレージを選択" />
+
+    <!-- ファイル読み込み -->
+    <Button
+        android:id="@+id/btn_read_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ファイルを読み込む"
+        android:layout_marginTop="8dp" />
+
+    <!-- ファイル書き込み -->
+    <Button
+        android:id="@+id/btn_write_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ファイルを書き込む"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
